@@ -1,0 +1,71 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section{
+    background-color: rgb(12, 39, 61);
+    height: 100vh;
+    
+}
+h1{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.container{
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .2rem solid rgb(18, 90, 150);
+}
+.cont{
+    background-color: white;
+    color: rgb(66, 50, 50);
+    text-align: center;
+    padding-bottom: 1.8rem;
+}
+.title{
+    text-transform: uppercase;
+    color: rgb(18, 90, 150);
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+h2,p,a{
+    margin-bottom: 1rem;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+}
+p.one{
+    border-bottom: 1px solid rgb(201, 159, 159);
+    padding-bottom: .6rem;
+}
+a{
+    font-size: .8rem;
+    background-color: rgb(18, 90, 150);
+    color: white;
+    padding: .7rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+strong{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+.diffrent-cont{
+    background-color: rgb(18, 90, 150);
+    color: white;
+}
+.diffrent-a{
+    background-color: white;
+    color: rgb(18, 90, 150);
+    font-weight: bold;
+}
+.diffrent-title{
+    color: white;
+}
